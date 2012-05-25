@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="The Netron Project">
+</Property><Property Name="Solution File" Value="C:\download\DIAGRAM\NETRON\New folder\The Netron Project.sln">
+</Property><Property Name="Date" Value="Saturday, February 05, 2011">
+</Property><Property Name="Time" Value="15:43 PM">
+</Property></Properties><Event ErrorLevel="0" Project="Netron.Core" Source="Core\Netron.Core.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Netron.Core" Source="Core\Netron.Core.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WinForm.Demo" Source="WinForm.Demo\WinForm.Demo.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="WinForm.Demo" Source="WinForm.Demo\WinForm.Demo.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="The Netron Project.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="The Netron Project.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Netron.Core" Source="Core\Netron.Core.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="WinForm.Demo" Source="WinForm.Demo\WinForm.Demo.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TreeData" targetNamespace="http://tempuri.org/TreeData.xsd" xmlns:mstns="http://tempuri.org/TreeData.xsd" xmlns="http://tempuri.org/TreeData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="TreeData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="TreeData" msprop:Generator_DataSetName="TreeData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TreeDataTable" msprop:Generator_UserTableName="TreeDataTable" msprop:Generator_RowDeletedName="TreeDataTableRowDeleted" msprop:Generator_RowChangedName="TreeDataTableRowChanged" msprop:Generator_RowClassName="TreeDataTableRow" msprop:Generator_RowChangingName="TreeDataTableRowChanging" msprop:Generator_RowEvArgName="TreeDataTableRowChangeEvent" msprop:Generator_RowEvHandlerName="TreeDataTableRowChangeEventHandler" msprop:Generator_TableClassName="TreeDataTableDataTable" msprop:Generator_TableVarName="tableTreeDataTable" msprop:Generator_RowDeletingName="TreeDataTableRowDeleting" msprop:Generator_TablePropName="TreeDataTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nodeID" msprop:Generator_UserColumnName="nodeID" msprop:Generator_ColumnVarNameInTable="columnnodeID" msprop:Generator_ColumnPropNameInRow="nodeID" msprop:Generator_ColumnPropNameInTable="nodeIDColumn" type="xs:string" />
+              <xs:element name="parentNodeID" msprop:Generator_UserColumnName="parentNodeID" msprop:Generator_ColumnVarNameInTable="columnparentNodeID" msprop:Generator_ColumnPropNameInRow="parentNodeID" msprop:Generator_ColumnPropNameInTable="parentNodeIDColumn" type="xs:string" />
+              <xs:element name="nodeDescription" msprop:Generator_UserColumnName="nodeDescription" msprop:Generator_ColumnVarNameInTable="columnnodeDescription" msprop:Generator_ColumnPropNameInRow="nodeDescription" msprop:Generator_ColumnPropNameInTable="nodeDescriptionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="nodeNote" msprop:Generator_UserColumnName="nodeNote" msprop:Generator_ColumnVarNameInTable="columnnodeNote" msprop:Generator_ColumnPropNameInRow="nodeNote" msprop:Generator_ColumnPropNameInTable="nodeNoteColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:TreeDataTable" />
+      <xs:field xpath="mstns:nodeID" />
+      <xs:field xpath="mstns:parentNodeID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

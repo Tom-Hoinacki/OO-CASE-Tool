@@ -1,0 +1,106 @@
+C:\download\DIAGRAM\NETRON\New folder\Core\bin\Debug\Netron.NetronLight.dll
+C:\download\DIAGRAM\NETRON\New folder\Core\bin\Debug\Netron.NetronLight.pdb
+C:\download\DIAGRAM\NETRON\New folder\Core\obj\Debug\ResolveAssemblyReference.cache
+C:\download\DIAGRAM\NETRON\New folder\Core\obj\Debug\Netron.NetronLight.Resources.Resource1.resources
+C:\download\DIAGRAM\NETRON\New folder\Core\obj\Debug\ResGen.read.1.tlog
+C:\download\DIAGRAM\NETRON\New folder\Core\obj\Debug\ResGen.write.1.tlog
+C:\download\DIAGRAM\NETRON\New folder\Core\obj\Debug\Netron.NetronLight.dll
+C:\download\DIAGRAM\NETRON\New folder\Core\obj\Debug\Netron.NetronLight.pdb
+C:\Users\bryan\Desktop\CSULB File\TEAMProject\Netron example\Netron example\Core\bin\Debug\Netron.NetronLight.dll
+C:\Users\bryan\Desktop\CSULB File\TEAMProject\Netron example\Netron example\Core\bin\Debug\Netron.NetronLight.pdb
+C:\Users\bryan\Desktop\CSULB File\TEAMProject\Netron example\Netron example\Core\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bryan\Desktop\CSULB File\TEAMProject\Netron example\Netron example\Core\obj\Debug\Netron.NetronLight.Resources.Resource1.resources
+C:\Users\bryan\Desktop\CSULB File\TEAMProject\Netron example\Netron example\Core\obj\Debug\ResGen.read.1.tlog
+C:\Users\bryan\Desktop\CSULB File\TEAMProject\Netron example\Netron example\Core\obj\Debug\ResGen.write.1.tlog
+C:\Users\bryan\Desktop\CSULB File\TEAMProject\Netron example\Netron example\Core\obj\Debug\Netron.NetronLight.dll
+C:\Users\bryan\Desktop\CSULB File\TEAMProject\Netron example\Netron example\Core\obj\Debug\Netron.NetronLight.pdb
+C:\Users\bryan\Desktop\DDT\Core\bin\Debug\Netron.NetronLight.dll
+C:\Users\bryan\Desktop\DDT\Core\bin\Debug\Netron.NetronLight.pdb
+C:\Users\bryan\Desktop\DDT\Core\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bryan\Desktop\DDT\Core\obj\Debug\Netron.NetronLight.Resources.Resource1.resources
+C:\Users\bryan\Desktop\DDT\Core\obj\Debug\ResGen.read.1.tlog
+C:\Users\bryan\Desktop\DDT\Core\obj\Debug\ResGen.write.1.tlog
+C:\Users\bryan\Desktop\DDT\Core\obj\Debug\Netron.NetronLight.dll
+C:\Users\bryan\Desktop\DDT\Core\obj\Debug\Netron.NetronLight.pdb
+C:\Users\bryan\Desktop\DDT - Copy - Copy\Core\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bryan\Desktop\DDT - Copy - Copy\Core\obj\Debug\Netron.NetronLight.Resources.Resource1.resources
+C:\Users\bryan\Desktop\DDT - Copy - Copy\Core\obj\Debug\ResGen.read.1.tlog
+C:\Users\bryan\Desktop\DDT - Copy - Copy\Core\obj\Debug\ResGen.write.1.tlog
+C:\Users\bryan\Desktop\DDT - Copy - Copy\Core\obj\Debug\Netron.NetronLight.dll
+C:\Users\bryan\Desktop\DDT - Copy - Copy\Core\obj\Debug\Netron.NetronLight.pdb
+C:\Users\bryan\Desktop\DDT - Copy - Copy\Core\bin\Debug\Netron.NetronLight.dll
+C:\Users\bryan\Desktop\DDT - Copy - Copy\Core\bin\Debug\Netron.NetronLight.pdb
+C:\Users\bryan\Desktop\DDT - property - Copy\Core\bin\Debug\Netron.NetronLight.dll
+C:\Users\bryan\Desktop\DDT - property - Copy\Core\bin\Debug\Netron.NetronLight.pdb
+C:\Users\bryan\Desktop\DDT - property - Copy\Core\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bryan\Desktop\DDT - property - Copy\Core\obj\Debug\Netron.NetronLight.Resources.Resource1.resources
+C:\Users\bryan\Desktop\DDT - property - Copy\Core\obj\Debug\ResGen.read.1.tlog
+C:\Users\bryan\Desktop\DDT - property - Copy\Core\obj\Debug\ResGen.write.1.tlog
+C:\Users\bryan\Desktop\DDT - property - Copy\Core\obj\Debug\Netron.NetronLight.dll
+C:\Users\bryan\Desktop\DDT - property - Copy\Core\obj\Debug\Netron.NetronLight.pdb
+C:\Users\bryan\Desktop\DDT_loadDiagram\Core\bin\Debug\Netron.NetronLight.dll
+C:\Users\bryan\Desktop\DDT_loadDiagram\Core\bin\Debug\Netron.NetronLight.pdb
+C:\Users\bryan\Desktop\DDT_loadDiagram\Core\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bryan\Desktop\DDT_loadDiagram\Core\obj\Debug\Netron.NetronLight.Resources.Resource1.resources
+C:\Users\bryan\Desktop\DDT_loadDiagram\Core\obj\Debug\ResGen.read.1.tlog
+C:\Users\bryan\Desktop\DDT_loadDiagram\Core\obj\Debug\ResGen.write.1.tlog
+C:\Users\bryan\Desktop\DDT_loadDiagram\Core\obj\Debug\Netron.NetronLight.dll
+C:\Users\bryan\Desktop\DDT_loadDiagram\Core\obj\Debug\Netron.NetronLight.pdb
+C:\Users\bryan\Desktop\DDT_Save_loadDiagram\Core\bin\Debug\Netron.NetronLight.dll
+C:\Users\bryan\Desktop\DDT_Save_loadDiagram\Core\bin\Debug\Netron.NetronLight.pdb
+C:\Users\bryan\Desktop\DDT_Save_loadDiagram\Core\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bryan\Desktop\DDT_Save_loadDiagram\Core\obj\Debug\Netron.NetronLight.Resources.Resource1.resources
+C:\Users\bryan\Desktop\DDT_Save_loadDiagram\Core\obj\Debug\ResGen.read.1.tlog
+C:\Users\bryan\Desktop\DDT_Save_loadDiagram\Core\obj\Debug\ResGen.write.1.tlog
+C:\Users\bryan\Desktop\DDT_Save_loadDiagram\Core\obj\Debug\Netron.NetronLight.dll
+C:\Users\bryan\Desktop\DDT_Save_loadDiagram\Core\obj\Debug\Netron.NetronLight.pdb
+C:\Users\bryan\Desktop\DDT_TabManager\Core\bin\Debug\Netron.NetronLight.dll
+C:\Users\bryan\Desktop\DDT_TabManager\Core\bin\Debug\Netron.NetronLight.pdb
+C:\Users\bryan\Desktop\DDT_TabManager\Core\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bryan\Desktop\DDT_TabManager\Core\obj\Debug\Netron.NetronLight.Resources.Resource1.resources
+C:\Users\bryan\Desktop\DDT_TabManager\Core\obj\Debug\ResGen.read.1.tlog
+C:\Users\bryan\Desktop\DDT_TabManager\Core\obj\Debug\ResGen.write.1.tlog
+C:\Users\bryan\Desktop\DDT_TabManager\Core\obj\Debug\Netron.NetronLight.dll
+C:\Users\bryan\Desktop\DDT_TabManager\Core\obj\Debug\Netron.NetronLight.pdb
+C:\Users\bryan\Desktop\DDT_Drag_tabClose\Core\bin\Debug\Netron.NetronLight.dll
+C:\Users\bryan\Desktop\DDT_Drag_tabClose\Core\bin\Debug\Netron.NetronLight.pdb
+C:\Users\bryan\Desktop\DDT_Drag_tabClose\Core\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bryan\Desktop\DDT_Drag_tabClose\Core\obj\Debug\Netron.NetronLight.Resources.Resource1.resources
+C:\Users\bryan\Desktop\DDT_Drag_tabClose\Core\obj\Debug\ResGen.read.1.tlog
+C:\Users\bryan\Desktop\DDT_Drag_tabClose\Core\obj\Debug\ResGen.write.1.tlog
+C:\Users\bryan\Desktop\DDT_Drag_tabClose\Core\obj\Debug\Netron.NetronLight.dll
+C:\Users\bryan\Desktop\DDT_Drag_tabClose\Core\obj\Debug\Netron.NetronLight.pdb
+C:\Users\bryan\Desktop\DDT_GUI\Core\bin\Debug\Netron.NetronLight.dll
+C:\Users\bryan\Desktop\DDT_GUI\Core\bin\Debug\Netron.NetronLight.pdb
+C:\Users\bryan\Desktop\DDT_GUI\Core\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bryan\Desktop\DDT_GUI\Core\obj\Debug\Netron.NetronLight.Resources.Resource1.resources
+C:\Users\bryan\Desktop\DDT_GUI\Core\obj\Debug\ResGen.read.1.tlog
+C:\Users\bryan\Desktop\DDT_GUI\Core\obj\Debug\ResGen.write.1.tlog
+C:\Users\bryan\Desktop\DDT_GUI\Core\obj\Debug\Netron.NetronLight.dll
+C:\Users\bryan\Desktop\DDT_GUI\Core\obj\Debug\Netron.NetronLight.pdb
+C:\Users\bryan\Desktop\DDT_GUI - Copy\Core\bin\Debug\Netron.NetronLight.dll
+C:\Users\bryan\Desktop\DDT_GUI - Copy\Core\bin\Debug\Netron.NetronLight.pdb
+C:\Users\bryan\Desktop\DDT_GUI - Copy\Core\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bryan\Desktop\DDT_GUI - Copy\Core\obj\Debug\Netron.NetronLight.Resources.Resource1.resources
+C:\Users\bryan\Desktop\DDT_GUI - Copy\Core\obj\Debug\ResGen.read.1.tlog
+C:\Users\bryan\Desktop\DDT_GUI - Copy\Core\obj\Debug\ResGen.write.1.tlog
+C:\Users\bryan\Desktop\DDT_GUI - Copy\Core\obj\Debug\Netron.NetronLight.dll
+C:\Users\bryan\Desktop\DDT_GUI - Copy\Core\obj\Debug\Netron.NetronLight.pdb
+C:\Users\bryan\Desktop\DDT_GUI - Integrate\Core\bin\Debug\Netron.NetronLight.dll
+C:\Users\bryan\Desktop\DDT_GUI - Integrate\Core\bin\Debug\Netron.NetronLight.pdb
+C:\Users\bryan\Desktop\DDT_GUI - Integrate\Core\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bryan\Desktop\DDT_GUI - Integrate\Core\obj\Debug\Netron.NetronLight.Resources.Resource1.resources
+C:\Users\bryan\Desktop\DDT_GUI - Integrate\Core\obj\Debug\ResGen.read.1.tlog
+C:\Users\bryan\Desktop\DDT_GUI - Integrate\Core\obj\Debug\ResGen.write.1.tlog
+C:\Users\bryan\Desktop\DDT_GUI - Integrate\Core\obj\Debug\Netron.NetronLight.dll
+C:\Users\bryan\Desktop\DDT_GUI - Integrate\Core\obj\Debug\Netron.NetronLight.pdb
+C:\Users\Tommy\Documents\Visual Studio 2010\DDT_GUI - Integrate\Core\bin\Debug\Netron.NetronLight.dll
+C:\Users\Tommy\Documents\Visual Studio 2010\DDT_GUI - Integrate\Core\bin\Debug\Netron.NetronLight.pdb
+C:\Users\Tommy\Documents\Visual Studio 2010\DDT_GUI - Integrate\Core\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Tommy\Documents\Visual Studio 2010\DDT_GUI - Integrate\Core\obj\Debug\Netron.NetronLight.Resources.Resource1.resources
+C:\Users\Tommy\Documents\Visual Studio 2010\DDT_GUI - Integrate\Core\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Tommy\Documents\Visual Studio 2010\DDT_GUI - Integrate\Core\obj\Debug\ResGen.read.1.tlog
+C:\Users\Tommy\Documents\Visual Studio 2010\DDT_GUI - Integrate\Core\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Tommy\Documents\Visual Studio 2010\DDT_GUI - Integrate\Core\obj\Debug\ResGen.write.1.tlog
+C:\Users\Tommy\Documents\Visual Studio 2010\DDT_GUI - Integrate\Core\obj\Debug\Netron.NetronLight.dll
+C:\Users\Tommy\Documents\Visual Studio 2010\DDT_GUI - Integrate\Core\obj\Debug\Netron.NetronLight.pdb

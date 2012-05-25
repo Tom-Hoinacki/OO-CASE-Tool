@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6C521E72-8B2E-4311-85A0-26846D669B99}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Demo</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Netron.NetronLight.Demo</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>Netron.NetronLight.Demo.Startup</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v10.2, Version=10.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v10.2, Version=10.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v10.2, Version=10.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v10.2, Version=10.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v10.2, Version=10.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="ImagedComboBox">
+      <HintPath>..\..\ImagedComboBox\ImagedComboBox\bin\Debug\ImagedComboBox.exe</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\1to1.png" />
+    <Content Include="Resources\1toM.png" />
+    <Content Include="Resources\Control.png" />
+    <Content Include="Resources\Double.png" />
+    <Content Include="Resources\General.png" />
+    <Content Include="Resources\ICON\2011040902463556_easyicon_cn_48.ico" />
+    <Content Include="Resources\ICON\20110409024657820_easyicon_cn_48.ico" />
+    <Content Include="Resources\ICON\20110409024904256_easyicon_cn_48.ico" />
+    <Content Include="Resources\MtoM.png" />
+    <Content Include="Resources\Plain.bmp" />
+    <Content Include="Resources\Plain.ico" />
+    <Content Include="Resources\Plain.png" />
+    <Content Include="Resources\Single.png" />
+    <Content Include="XML_Serializer.css" />
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="SubForms\CFDEventAndAction.resx">
+      <DependentUpon>CFDEventAndAction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\STTForm.resx">
+      <DependentUpon>STTForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\ConversionFroms\TransformDrivenForm.resx">
+      <DependentUpon>TransformDrivenForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\EditOtherObjects.resx">
+      <DependentUpon>EditOtherObjects.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\conncetionHelper.resx">
+      <DependentUpon>conncetionHelper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\diagramNameFrom.resx">
+      <DependentUpon>diagramNameFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\EditDDTConnection.resx">
+      <DependentUpon>EditDDTConnection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GraphManipulationUserControl.resx">
+      <DependentUpon>GraphManipulationUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AboutTemplate.htm" />
+    <EmbeddedResource Include="Resources\Talking.gif" />
+    <EmbeddedResource Include="DataEntryUserControl.resx">
+      <DependentUpon>DataEntryUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VersionInfo.resx">
+      <DependentUpon>VersionInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Resources\FontDialogHS.png" />
+    <None Include="app.config" />
+    <None Include="Resources\info.png" />
+    <None Include="Resources\Information.bmp" />
+    <EmbeddedResource Include="Resources\Netron EULA.htm" />
+    <None Include="Resources\LayoutShapes.png" />
+    <None Include="Resources\PropertiesHS.png" />
+    <None Include="Resources\Ungroup.png" />
+    <None Include="Resources\Group.png" />
+    <None Include="Resources\BringForwardHS.png" />
+    <None Include="Resources\BringToFrontHS.png" />
+    <None Include="Resources\SendToBackHS.png" />
+    <None Include="Resources\SendBackwardHS.png" />
+    <None Include="Resources\eps_closedHS.png" />
+    <None Include="Resources\PublishToWebHS.png" />
+    <None Include="Resources\HomeHS.png" />
+    <None Include="Resources\RighsRestrictedHS.png" />
+    <None Include="Resources\GoLtrHS.png" />
+    <None Include="Resources\GoRtlHS.png" />
+    <None Include="Resources\ConnectorMover.png" />
+    <None Include="Resources\Connection.png" />
+    <None Include="Resources\StandardArrow.png" />
+    <None Include="Resources\Drawing.png" />
+    <None Include="Resources\DrawEllipse.png" />
+    <None Include="Resources\DrawRectangle.png" />
+    <EmbeddedResource Include="Resources\CanvasBackground.png" />
+    <None Include="Resources\Edit_RedoHS.png" />
+    <None Include="Resources\Edit_UndoHS.png" />
+    <None Include="Resources\Help.png" />
+    <None Include="Resources\PasteHS.png" />
+    <None Include="Resources\CopyHS.png" />
+    <None Include="Resources\CutHS.png" />
+    <None Include="Resources\PrintPreviewHS.png" />
+    <None Include="Resources\openfolderHS.png" />
+    <None Include="Resources\DocumentHS.png" />
+    <None Include="Resources\saveHS.png" />
+    <None Include="Resources\DeleteHS.png" />
+    <None Include="Resources\AlignTableCellMiddleLeftJust.bmp" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\Data_Schema.ico" />
+    <None Include="Resources\DiagramIcon.ico" />
+    <None Include="Resources\UserManual.docx" />
+    <None Include="Web References\BugWS\NetronBugLoggingService.wsdl" />
+    <None Include="Web References\BugWS\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Compile Include="BugLogging.cs" />
+    <Compile Include="DDTcore\DDTControl\DDTTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DDTcore\DDTControl\DDTTabManagement.cs" />
+    <Compile Include="DDTcore\DDTControl\DDTTabPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DDTcore\DDTConversion\CFDConverter.cs" />
+    <Compile Include="DDTcore\DDTConversion\DFDConvertors\ACNode.cs" />
+    <Compile Include="DDTcore\DDTConversion\DFDConvertors\DirectedPathNode.cs" />
+    <Compile Include="DDTcore\DDTConversion\DFDConvertors\TransactionDFDConverter.cs" />
+    <Compile Include="DDTcore\DDTConversion\DFDConvertors\TransformDFDConverter.cs" />
+    <Compile Include="DDTcore\DDTDataStructure\DDTDiagram.cs" />
+    <Compile Include="DDTcore\DDTDataStructure\DDTHelper.cs" />
+    <Compile Include="DDTcore\DDTDataStructure\DDTObject.cs" />
+    <Compile Include="DDTcore\DDTDataStructure\DDTProject.cs" />
+    <Compile Include="DDTcore\DDTDataStructure\DDTProjectDrawingManagement.cs" />
+    <Compile Include="DDTcore\DDTDataStructure\DDTRelation.cs" />
+    <Compile Include="DDTcore\DDTDataStructure\IDDTElement.cs" />
+    <Compile Include="DDTcore\DDTDataStructure\RealObject\ADTObject.cs" />
+    <Compile Include="DDTcore\DDTDataStructure\RealObject\DDTObjectMap.cs" />
+    <Compile Include="DDTcore\DDTDataStructure\RealObject\CObject.cs" />
+    <Compile Include="DDTcore\DDTDataStructure\RealObject\SMObject.cs" />
+    <Compile Include="DDTcore\DDTDataStructure\staticId.cs" />
+    <Compile Include="DDTcore\XML.cs" />
+    <Compile Include="SubForms\CFDEventAndAction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\CFDEventAndAction.Designer.cs">
+      <DependentUpon>CFDEventAndAction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\STTForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\STTForm.Designer.cs">
+      <DependentUpon>STTForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\ConversionFroms\ConversionHelper.cs" />
+    <Compile Include="SubForms\ConversionFroms\TransformDrivenForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\ConversionFroms\TransformDrivenForm.Designer.cs">
+      <DependentUpon>TransformDrivenForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\EditOtherObjects.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\EditOtherObjects.Designer.cs">
+      <DependentUpon>EditOtherObjects.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\conncetionHelper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\conncetionHelper.Designer.cs">
+      <DependentUpon>conncetionHelper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\NetronDDTHelper.cs" />
+    <Compile Include="SubForms\diagramNameFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\diagramNameFrom.Designer.cs">
+      <DependentUpon>diagramNameFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\EditDDTConnection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\EditDDTConnection.Designer.cs">
+      <DependentUpon>EditDDTConnection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GraphManipulationUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GraphManipulationUserControl.Designer.cs">
+      <DependentUpon>GraphManipulationUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Startup.cs" />
+    <Compile Include="DataEntryUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DataEntryUserControl.Designer.cs">
+      <DependentUpon>DataEntryUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestProj.cs" />
+    <Compile Include="VersionInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VersionInfo.Designer.cs">
+      <DependentUpon>VersionInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\BugWS\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Netron.Core.csproj">
+      <Project>{96AEBBEE-4203-45F3-BCF5-7B73BF256BDA}</Project>
+      <Name>Netron.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="ArchitectureChartProject\TreeGenerator\TreeGenerator\TreeGenerator.csproj">
+      <Project>{32E6B1C5-E785-4AB3-9C3E-E5B26E16EA79}</Project>
+      <Name>TreeGenerator</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://netron.sourceforge.net/ewiki/NetronBugLoggingService.php%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\BugWS\</RelPath>
+      <UpdateFromURL>http://netron.sourceforge.net/ewiki/NetronBugLoggingService.php%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Demo_BugWS_NetronWS</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

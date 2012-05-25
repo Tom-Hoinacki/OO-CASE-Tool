@@ -1,0 +1,3 @@
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Naming", "CA1710:IdentifiersShouldHaveCorrectSuffix", Scope = "type", Target = "Netron.NetronLight.CollectionBase`1")]
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1062:ValidateArgumentsOfPublicMethods", Scope = "member", Target = "Netron.NetronLight.EntityMouseEventArgs..ctor(Netron.NetronLight.IDiagramEntity,System.Windows.Forms.MouseEventArgs)")]
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Performance", "CA1810:InitializeReferenceTypeStaticFieldsInline", Scope = "member", Target = "Netron.NetronLight.View+AntsFactory..cctor()")]

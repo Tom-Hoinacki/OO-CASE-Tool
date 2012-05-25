@@ -1,0 +1,15 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Netron.NetronLight
+{
+    public interface IComplexShape : IShape
+    {
+        CollectionBase<IShapeMaterial> Children
+        {            
+            get;
+            set;
+        }
+    }
+}

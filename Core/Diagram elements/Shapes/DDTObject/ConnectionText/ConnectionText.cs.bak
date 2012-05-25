@@ -1,0 +1,212 @@
+using System;
+using System.Drawing;
+using System.Drawing.Drawing2D;
+using System.Windows.Forms;
+using System.ComponentModel;
+using System.Collections.Generic;
+
+namespace Netron.NetronLight
+{
+
+    public class ConnectionText: DDTObject
+    {
+        #region Field
+        //string fromText;
+        //string toText;
+        //string midText;
+        Rectangle fromRec;
+        Rectangle toRec;
+        Rectangle midRec;
+        DDTConnection conn;
+        IController mController;
+        #endregion
+
+ #region Properties
+        public override string EntityName
+        {
+            get { return "ConnectionText"; }
+        }
+        #endregion
+
+		#region Constructor
+
+        public ConnectionText(DDTConnection conn)
+            : base("ConnectionText", false)
+        {
+            this.conn = conn;
+        }
+
+		public ConnectionText(IModel s) : base(s)
+		{
+            //Init();
+		}
+
+        public ConnectionText()
+            : base("ConnectionText", false)
+        {
+            //Init(); 
+        }
+
+        /*
+        public string Tfrom
+        {
+            get { return fromText; }
+            set { this.fromText = value; }
+        }
+        public string Tto
+        {
+            get { return toText; }
+            set { this.toText = value; }
+        }
+        public string Tmid
+        {
+            get { return midText; }
+            set { this.midText = value; }
+        }
+         */ 
+        public DDTConnection Connection
+        {
+            get { return conn; }
+            set { this.conn = value; }
+        }
+        public Rectangle Rfrom
+        {
+            get { return fromRec; }
+            set { this.fromRec = value; }
+        }
+        public Rectangle Rto
+        {
+            get { return toRec; }
+            set { this.toRec = value; }
+        }
+        public Rectangle Rmid
+        {
+            get { return midRec; }
+            set { this.midRec = value; }
+        }
+
+        internal IController Controller
+        {
+            get
+            {
+                return mController;
+            }
+
+            set
+            {
+                mController = value;
+            }
+        }
+
+
+        public override void Init()
+         {
+             base.Init();
+             this.Rectangle = conn.Rectangle;
+            /*
+             this.fromText = conn.Tfrom;
+             this.toText = conn.Tto;
+             this.midText = conn.Tmid;
+            */
+             Point from= new Point(conn.From.Point.X+15, conn.From.Point.Y-30);
+            Point to= new Point(conn.To.Point.X-50, conn.From.Point.Y-30);
+            Point mid= new Point(conn.From.Point.X+(conn.To.Point.X-conn.From.Point.X)/2-20,conn.From.Point.Y+(conn.To.Point.Y-conn.From.Point.Y)/2-20);
+             this.fromRec = new Rectangle(from,new Size(40,10));
+             this.toRec = new Rectangle(to, new Size(40, 10));
+             this.midRec = new Rectangle(mid, new Size(40, 10));
+            
+
+             /*
+            //init connection points
+             cTop = new Connector(new Point((int) (Rectangle.Left + Rectangle.Width / 2), Rectangle.Top), Model);
+             cTop.Name = "Top connector";      
+             cTop.Parent = this;
+             Connectors.Add(cTop);
+
+             cRight = new Connector(new Point(Rectangle.Right, (int) (Rectangle.Top + Rectangle.Height / 2)), Model);
+             cRight.Name = "Right connector";
+             cRight.Parent = this;
+             Connectors.Add(cRight);
+
+             cBottom = new Connector(new Point((int)(Rectangle.Left + Rectangle.Width / 2), Rectangle.Bottom), Model);
+             cBottom.Name = "Bottom connector";
+             cBottom.Parent = this;
+             Connectors.Add(cBottom);
+
+             cLeft = new Connector(new Point(Rectangle.Left, (int)(Rectangle.Top + Rectangle.Height / 2)), Model);
+             cLeft.Name = "Left connector";
+             cLeft.Parent = this;
+             Connectors.Add(cLeft);
+             */
+         }
+		#endregion
+
+		#region Methods
+		public override bool Hit(System.Drawing.Point p)
+		{
+			Rectangle r= new Rectangle(p, new Size(5,5));
+			return Rectangle.Contains(r);			
+		}
+
+ 
+
+
+
+		public override void Paint(System.Drawing.Graphics g)
+		{
+ 
+			g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighSpeed;
+ 
+            //Brush ADTShapeBrush = new LinearGradientBrush(new Point(((int)(Rectangle.X)), ((int)(Rectangle.Y))), new Point(((int)(Rectangle.X + Rectangle.Width)), ((int)(Rectangle.Y))), Color.LightGoldenrodYellow, Color.WhiteSmoke);
+           
+            //g.FillRectangle(ADTShapeBrush, Rectangle);
+			
+            //the edge of the bundle
+            
+
+
+
+            Pen TextPen = new Pen(Color.Transparent, 1.5F); 
+
+            if (Hovered || IsSelected)
+            {
+                TextPen.Color = selectedColor;
+                TextPen.Width = selectedWidth;
+                g.DrawRectangle(TextPen, fromRec);
+                g.DrawRectangle(TextPen, toRec);
+                g.DrawRectangle(TextPen, midRec);
+                  
+            }
+            else
+            {
+                g.DrawRectangle(TextPen, fromRec);
+                g.DrawRectangle(TextPen, toRec);
+                g.DrawRectangle(TextPen, midRec);
+            }
+            /*
+            //the connectors
+			for(int k=0;k<Connectors.Count;k++)
+			{
+				Connectors[k].Paint(g);
+			}           
+            */
+			//here we keep it really simple:
+            if (!string.IsNullOrEmpty(conn.Tfrom))
+            {
+                g.DrawString(conn.Tfrom, DDTTextFont, DDTTextBrush, fromRec, DDTTextFormat);
+            }
+            if (!string.IsNullOrEmpty(conn.Tto))
+            {
+                g.DrawString(conn.Tto, DDTTextFont, DDTTextBrush, toRec, DDTTextFormat);
+            }
+            if (!string.IsNullOrEmpty(conn.Tmid))
+            {
+                g.DrawString(conn.Tmid, DDTTextFont, DDTTextBrush, midRec, DDTTextFormat);
+            }
+		}
+
+ 
+		#endregion	
+    }
+	
+}

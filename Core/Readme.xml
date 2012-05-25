@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Readme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Readme.xsd">
+	<Title>The Netron Graph Library 2006</Title>
+	<Description>
+    <para>
+      The Visual Studio project is organized in directories corresponding to functional domains; undo/redo, user interface, resources and so on. Of course, some classes are used in multiple ways and the organization depends, to some extend, on your own point of view, style of coding and perception. I have tried to partition things in the way I see them and hope it will make the code as accessible as possible and easy to extend.
+    </para>
+    <para>
+      Another paralkjlkj
+    </para>
+    
+  </Description>
+	<items>
+		<item location="Utils/Readme.xml">Utils</item>
+		<item location="Core/Readme.xml">Core
+			<items>
+				<item location="Core/Interfaces/Readme.xml">Interfaces</item>
+			</items>
+		</item>
+	</items>
+</Readme>

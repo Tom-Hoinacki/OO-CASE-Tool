@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://mysql-n.sourceforge.net/webservice/" xmlns:si="http://soapinterop.org/xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="http://mysql-n.sourceforge.net/webservice/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://mysql-n.sourceforge.net/webservice/">
+      <xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <xsd:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+      <xsd:complexType name="ArrayOfstring">
+        <xsd:complexContent mixed="false">
+          <xsd:restriction base="SOAP-ENC:Array">
+            <xsd:attribute wsdl:arrayType="xsd:string[]" ref="SOAP-ENC:arrayType" />
+          </xsd:restriction>
+        </xsd:complexContent>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="AddBugRequest">
+    <wsdl:part name="bugtitle" type="xsd:string" />
+    <wsdl:part name="bugtext" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="AddBugResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="ListBugsRequest">
+    <wsdl:part name="last" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="ListBugsResponse">
+    <wsdl:part name="return" type="tns:ArrayOfstring" />
+  </wsdl:message>
+  <wsdl:portType name="NetronWSPortType">
+    <wsdl:operation name="AddBug">
+      <wsdl:input message="tns:AddBugRequest" />
+      <wsdl:output message="tns:AddBugResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ListBugs">
+      <wsdl:input message="tns:ListBugsRequest" />
+      <wsdl:output message="tns:ListBugsResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="NetronWSBinding" type="tns:NetronWSPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="AddBug">
+      <soap:operation soapAction="http://netron.sourceforge.net/ewiki/NetronBugLoggingService.php/AddBug" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="http://soapinterop.org/" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="http://soapinterop.org/" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListBugs">
+      <soap:operation soapAction="http://netron.sourceforge.net/ewiki/NetronBugLoggingService.php/ListBugs" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="http://mysql-n.sourceforge.net/webservice/" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="http://mysql-n.sourceforge.net/webservice/" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="NetronWS">
+    <wsdl:port name="NetronWSPort" binding="tns:NetronWSBinding">
+      <soap:address location="http://netron.sourceforge.net/ewiki/NetronBugLoggingService.php" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

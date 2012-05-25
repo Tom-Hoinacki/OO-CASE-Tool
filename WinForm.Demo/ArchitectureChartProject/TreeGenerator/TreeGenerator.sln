@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeGenerator", "TreeGenerator\TreeGenerator.csproj", "{32E6B1C5-E785-4AB3-9C3E-E5B26E16EA79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTreeGenerator", "TestTreeGenerator\TestTreeGenerator.csproj", "{39762B49-3591-416C-8FD7-EAD9B770EDEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32E6B1C5-E785-4AB3-9C3E-E5B26E16EA79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32E6B1C5-E785-4AB3-9C3E-E5B26E16EA79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32E6B1C5-E785-4AB3-9C3E-E5B26E16EA79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32E6B1C5-E785-4AB3-9C3E-E5B26E16EA79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39762B49-3591-416C-8FD7-EAD9B770EDEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39762B49-3591-416C-8FD7-EAD9B770EDEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39762B49-3591-416C-8FD7-EAD9B770EDEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39762B49-3591-416C-8FD7-EAD9B770EDEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
